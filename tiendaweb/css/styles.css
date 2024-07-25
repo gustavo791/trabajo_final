@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    justify-content: center; /* Centra los elementos flexibles horizontalmente */
+    align-items: center; /* Centra los elementos flexibles verticalmente */
+    min-height: 100vh; /* Altura mínima del cuerpo igual a la altura del viewport */
+}
+
+header {
+    background-color: rgb(137, 30, 236);
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto; /* Centra el contenido y añade margen superior e inferior */
+    max-width: 1200px; /* Limita el ancho máximo del contenido */
+}
+
+section {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 5px solid yellowgreen;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+img {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Espacio inferior entre la imagen y el contenido */
+}
+
+article {
+    font-size: 20px;
+    margin-bottom: 20px; /* Espacio inferior entre el artículo y la imagen */
+}
+
+section h1 {
+    border: 2px solid; /* El color del borde debería ser especificado */
+    padding: 20px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+main button {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(137, 30, 236);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+}

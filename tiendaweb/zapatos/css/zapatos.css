@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Cambiado para que los elementos sean flexibles en columna */
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 100vh; /* Altura mínima igual al viewport */
+    color: white; /* Añadido color de texto */
+}
+
+header {
+    background-color: rgb(137, 30, 236);
+    padding: 20px 0; /* Aumenta el padding superior e inferior */
+    width: 100%;
+    text-align: center;
+    color: white; /* Color de texto */
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+.zapatos {
+    width: 45%; /* Ancho del contenedor de cada zapato */
+    margin-bottom: 20px; /* Espacio inferior entre los zapatos */
+    padding: 15px;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black; /* Color del texto interno */
+}
+
+.zapatos img {
+    display: block;
+    margin: 0 auto; /* Centrado horizontal de la imagen */
+    max-width: 50%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Reducción del radio de borde */
+    padding: 10px; /* Reducción del relleno */
+}
+
+.zapatos h2 {
+    margin-top: 10px; /* Espacio superior para el título */
+}
+
+.zapatos p {
+    margin-bottom: 10px; /* Espacio inferior para el precio */
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0; /* Aumenta el padding superior e inferior */
+    font-size: 18px; /* Tamaño de fuente */
+    color: navy; /* Color de texto azul oscuro */
+}
